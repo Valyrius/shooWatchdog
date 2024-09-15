@@ -27,8 +27,7 @@ function shoo:applyOptions()
 	GameOptions.SetInt("Engine/Watchdog", "TimeoutSeconds", self.settings.global.TimeoutSeconds)
 	GameOptions.SetBool("Engine/Watchdog", "ActiveIfDebuggerPresent", self.settings.advanced.ActiveIfDebuggerPresent)
 	GameOptions.SetBool("Engine/Watchdog", "ActiveIfDialogBlocking", self.settings.advanced.ActiveIfDialogBlocking)
-	GameOptions.SetBool("Engine/Watchdog", "ActiveIfScriptBreakpointBlocking", self.settings.advanced.ActiveIfScriptBreakpointBlocking
-	)
+	GameOptions.SetBool("Engine/Watchdog", "ActiveIfScriptBreakpointBlocking", self.settings.advanced.ActiveIfScriptBreakpointBlocking)
 	GameOptions.SetBool("Engine/Watchdog", "DumpJobExecutionContext", self.settings.advanced.DumpJobExecutionContext)
 	GameOptions.SetInt("Engine/Watchdog", "ThreadFrequencyHz", self.settings.advanced.ThreadFrequencyHz)
 end
